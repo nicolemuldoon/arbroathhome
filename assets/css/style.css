@@ -1,0 +1,83 @@
+/* Fonts Imported (Obtained from Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+
+/* Default Body Styles */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration:none;
+    color: #333;
+}
+
+/* Navigation */
+
+.navbar {
+    background-color: #9c114c;
+    color:#fff;
+    height:70px;
+    padding: 0 30px;
+    align-items: center;
+}
+
+.navbar h1 {
+    font-size:25px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    color:#fff;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    color: #999;
+}
+
+.container {
+    max-width:1920px;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Banner */
+
+.banner {
+    position:fixed;
+    width:100%;
+    height: 400px;
+    display:flex;
+    align-items:center;
+    background-color:#add9eb;
+}
+
+.banner-text {
+    font-weight:300;
+    padding:200px;
+}
+
+.banner-text h1 {
+    text-transform:uppercase;
+}
+
+.banner img {
+    max-height:400px;
+    max-width:auto;
+}
+
+
+
+
