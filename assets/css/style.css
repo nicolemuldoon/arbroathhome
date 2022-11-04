@@ -22,11 +22,12 @@ a {
 /* Navigation */
 
 .navbar {
-    background-color: #9c114c;
+    background-color: #5b4182;
     color:#fff;
-    height:70px;
+    height:62px;
     padding: 0 30px;
     align-items: center;
+    box-shadow: 0 8px 2px -2px #563e7b;
 }
 
 .navbar h1 {
@@ -56,15 +57,16 @@ a {
 /* Banner */
 
 #header {
-    height:300px;
+    height:auto;
     background-size:cover;
-    background-image: url('/assets/img/cliffs.jpg');
+    background-image: url('/assets/img/sas.png');
     display:flex;
     align-items:center;
     justify-content:center;
     flex-direction: column;
     color:#fff;
     text-shadow: 2px 2px 0px #000000;
+    padding:100px 10px 100px 10px;
 }
 
 #header h1 {
