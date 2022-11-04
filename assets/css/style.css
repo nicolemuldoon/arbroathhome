@@ -25,8 +25,6 @@ a {
     background-color: #5b4182;
     color:#fff;
     height:62px;
-    padding: 0 30px;
-    align-items: center;
     box-shadow: 0 8px 2px -2px #563e7b;
 }
 
@@ -34,24 +32,20 @@ a {
     font-size:25px;
 }
 
-.navbar ul {
-    display: flex;
-}
-
 .navbar a {
     color:#fff;
-    padding: 10px;
 }
 
 .navbar a:hover {
     color: #999;
 }
 
+.navbar-toggler {
+    color:#fff;
+}
+
 .container {
     max-width:1920px;
-    overflow: auto;
-    margin: 0 auto;
-    padding: 0;
 }
 
 /* Banner */
