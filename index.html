@@ -14,11 +14,11 @@
     <body>
 
     <!--Navigation Bar to Display Links and Company Name -->
-    <nav class="navbar navbar-dark navbar-expand-md py-3">
+    <nav class="navbar navbar-dark navbar-expand-md py-3 fixed-top">
     <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="navtitle">Arbroath Tourist Information</span></a><button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
         <div id="navcol-2" class="collapse navbar-collapse">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="/history.html">History</a></li>
                 <li class="nav-item"><a class="nav-link" href="/visit.html">Places to Visit</a></li>
             </ul>
@@ -37,28 +37,46 @@
 
     <!-- Main Body -->
 
-    <div class="container" style="max-width:960px;">
+    <div class="container-sm">
         <div class="row">
-         <div class="col-md-6">
-            <h1>Welcome to Arbroath</h1>
-            <p>Arbroath is a town found in North East Scotland within the Angus region. It is a coastal town with a population estimated around 23,902, making it the largest town in Angus. </p>
+            <div class="col-sm">
+                <div class="p-3 h-100">
+                    <h1>Welcome to Arbroath</h1>
+                    <p>Arbroath is a seaside town within the region of Angus in North East Scotland. 
+                    It is home to a population of around 23,500 individuals, making it the largest town in Angus.</p>
+                    <p>Arbroath is famous for its involvement in historical Scottish events, and today is 
+                    most popular amongst tourists for its local hotspots, including the Arbroath Cliffs, the Harbour, 
+                    the Arbroath Abbey and numerous caravan sites and nature trails located throughout the town. </p>
+                    <p>If you want to get involved more, visit our <a href="/visit.html">recommendations</a> 
+                    on places to explore and learn more about the local history of the town <a href="/history.html">here</a>.</p>
+                    <p>The customer requires you to come up with a creative
+description of the town, its’ history, and essential
+experiences. You should use paragraphs, headings and
+lists as necessary. You are encouraged to find images to
+support the description (ensure images comply with
+license conditions and are correctly referenced), and add
+links to external webpages as appropriate.
+</p>
+                    <img class="img-responsive" src="" alt="logo here">
+                </div>
             </div>
-            <div class="col-md-6"><iframe width="400" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-2.71636962890625%2C56.51527960841699%2C-2.489776611328125%2C56.60212195530095&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=13/56.5587/-2.6031">View Larger Map</a></small></div>
+            <div class="col-sm">
+                <div class="p-3"><h1>Explore Town</h1>
+                <p><iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-2.71636962890625%2C56.51527960841699%2C-2.489776611328125%2C56.60212195530095&amp;layer=mapnik&amp;marker=56.55872569537275%2C-2.6030731201171875" style="border: 1px solid black"></iframe><br><small><a href="https://www.openstreetmap.org/?mlat=56.5587&amp;mlon=-2.6031#map=13/56.5587/-2.6031">View Larger Map</a></small></p></div>
+            </div>
         </div>
     </div>
 
+    <!-- Footer -->
+
     <div class="col">
-        <footer class="text-center bg-dark">
+        <footer class="text-center" style="background-color:#5b4182;">
              <div class="container text-white py-4 py-lg-5">
-                <ul class="list-inline">
-                        <li class="list-inline-item me-4"><a class="link-light" href="#">Lorem ipsum</a></li>
-                </ul>
-                <p class="text-muted mb-0">Copyright © All images [...]</p>
+                <p>Web Page designed by Nicole A. Muldoon | 2022</p>
+                <p>Copyright Main Image © <em>McDowall, James. Arbroath Abbey. Photograph. Shutterstock. Web.</em></p>
             </div>
         </footer>
     </div>
-
-
 
     </body>
 
