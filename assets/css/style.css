@@ -52,11 +52,38 @@ a:hover {
     text-decoration:underline;
 }
 
-@media only screen and (max-width: 600px) {
+
+
+@media only screen and (max-width: 768px) {
 .navtitle {
     font-size:2vh;
+}}
+
+@media only screen and (max-width: 768px) {
+.navbar li.nav-item a.nav-link {
+    color:#563e7b;
+    text-align:right;
+    float:right;
+    width:100%;
+}
+
+.navbar li.nav-item:not(:last-child) {
+    border-bottom:1px dashed;
+    border-color:#5b4182;
+}
+
+.navbar ul.navbar-nav {
+    background-color:white;
+    border:solid;
+    border:2px;
+    border-color: #e9e1f5;
+    border-radius:5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.192);
+    width:60%;
+    padding:2%;
 }
 }
+
 
 /* Banner */
 
