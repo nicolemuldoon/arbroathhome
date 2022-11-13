@@ -1,0 +1,65 @@
+commit 087b2f5ec807175279270c9ec955185572148abb
+Author: Nicole Muldoon <u05nm21@abdn.ac.uk>
+Date:   Tue Nov 8 14:40:55 2022 +0000
+
+    Added background colour to navbar on collapse
+
+commit 05ce6fa20b41b80fbc6ac373e593c4fdbdd2dbde
+Author: Nicole Muldoon <u05nm21@abdn.ac.uk>
+Date:   Sun Nov 6 14:38:30 2022 +0000
+
+    Finalised the project and updated the README.md file to include comments on design choice and difficulties faced.
+
+commit acf11c899ebf9786d9de73f750ab7162e60eb0f4
+Author: Nicole Muldoon <u05nm21@abdn.ac.uk>
+Date:   Sat Nov 5 22:55:58 2022 +0000
+
+    Added missing scripts from <body>.
+
+commit 7bef62c0768a409d3a391a5d49facd443fa13fc0
+Author: Nicole Muldoon <u05nm21@abdn.ac.uk>
+Date:   Sat Nov 5 22:12:33 2022 +0000
+
+    Added information from Task 5 to most pages and heavily edited CSS responsive elements.
+
+commit db374501e981549acd5dd5efb4cf80bd4a72b14c
+Author: Nicole Muldoon <u05nm21@abdn.ac.uk>
+Date:   Sat Nov 5 01:08:46 2022 +0000
+
+    Added html duplicates for History/Visit pages, as well as placeholders for columns on main page
+
+commit 29c23754108f8ce6bf24caddfb20cdc4d6c5a044
+Author: Nicole Muldoon <u05nm21@abdn.ac.uk>
+Date:   Fri Nov 4 18:50:10 2022 +0000
+
+    Fixed navbar to make it responsive using Bootstrap elements
+
+commit 126fc8b846aa6597206e7379ff5fa8b41a88d2a0
+Author: Nicole Muldoon <u05nm21@abdn.ac.uk>
+Date:   Fri Nov 4 18:13:50 2022 +0000
+
+    Changed header image and added a box shadow to the navbar
+
+commit d2fad5b90fd7cbec596d40598a1b721765bdb3de
+Author: Nicole Muldoon <u05nm21@abdn.ac.uk>
+Date:   Thu Nov 3 10:26:05 2022 +0000
+
+    Made the banner a jumbotron element with a photo (licensed) of the local cliffs
+
+commit ffc8d5a835e5577e3b4ad7af461258a718fe02f0
+Author: Nicole Muldoon <u05nm21@abdn.ac.uk>
+Date:   Tue Nov 1 20:16:50 2022 +0000
+
+    Added a navigation bar and sample header
+
+commit 9b6051881d575e97219396397432f85538743f10
+Author: Nicole Muldoon <u05nm21@abdn.ac.uk>
+Date:   Sat Oct 29 18:16:17 2022 +0000
+
+    Added basic HTML code and Bootstrap files to root folder
+
+commit 7833c034e830cbd9e4a9b9b0ffbbf9d729a05167
+Author: Nicole Muldoon <u05nm21@abdn.ac.uk>
+Date:   Sat Oct 29 17:58:17 2022 +0000
+
+    This is my first commitment
